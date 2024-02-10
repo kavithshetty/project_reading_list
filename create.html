@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>MY Reading List</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.php" class="logo"><strong>MY</strong> Reading List </a>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+					</ul>
+				</header>
+
+
+				<!-- Form -->
+				
+				<br>
+				<h3>Create new List</h3>
+				<br>
+				<form name="frmrlist" method="post" action="create.php">
+					<div class="row gtr-uniform">
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="txtName" id="txtName" value="" placeholder="Novel/Manga/Manhwa/Manhua Name" />
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="txtLink" id="txtLink" value="" placeholder="Site Link" />
+						</div>
+						<!-- Break -->
+						<div class="col-12">
+							<select name="txtCategory" id="txtCategory">
+								<option value="">- Category -</option>
+								<option value="Reading">Reading</option>
+								<option value="Completed">Completed</option>
+								<option value="Droped">Droped</option>
+								<option value="Plan to Read">Plan to Read</option>
+							</select>
+						</div>
+						<!-- Break -->
+						<!-- <div class="col-4 col-12-small">
+							<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+							<label for="demo-priority-low">Low</label>
+						</div>
+						<div class="col-4 col-12-small">
+							<input type="radio" id="demo-priority-normal" name="demo-priority">
+							<label for="demo-priority-normal">Normal</label>
+						</div>
+						<div class="col-4 col-12-small">
+							<input type="radio" id="demo-priority-high" name="demo-priority">
+							<label for="demo-priority-high">High</label>
+						</div> -->
+						<!-- Break -->
+						<!-- <div class="col-6 col-12-small">
+							<input type="checkbox" id="demo-copy" name="demo-copy">
+							<label for="demo-copy">Email me a copy</label>
+						</div>
+						<div class="col-6 col-12-small">
+							<input type="checkbox" id="demo-human" name="demo-human" checked>
+							<label for="demo-human">I am a human</label>
+						</div> -->
+						<!-- Break -->
+						<div class="col-12">
+							<textarea name="txtComment" id="txtComment" placeholder="Comment" rows="6"></textarea>
+						</div>
+						<!-- Break -->
+						<div class="col-12">
+							<ul class="actions">
+								<li><input type="submit" name="Submit" id="Submit" value="Save List" class="primary" /></li>
+								<li><input type="reset" value="Reset" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+
+
+
+
+
+				<!-- Content end -->
+			</div>
+		</div>
+		<!-- Main End -->
+
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Search -->
+				<section id="search" class="alt">
+					<form method="post" action="#">
+						<input type="text" name="query" id="query" placeholder="Search" />
+					</form>
+				</section>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li>
+							<span class="opener">Edit Reading List</span>
+							<ul>
+								<li><a href="create.html">Create List</a></li>
+								<li><a href="read.php">Read List</a></li>
+								<li><a href="update.html">Update List</a></li>
+								<li><a href="delete.html">Delete List</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- Footer -->
+		<!-- <footer id="footer">
+			<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer> -->
+
+	</div>
+</div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
